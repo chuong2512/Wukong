@@ -1,19 +1,19 @@
 ﻿using System;
-using UnityEngine;
-using UnityEngine.Purchasing;
+using UnityEngine;/*
+using UnityEngine.Purchasing;*/
 using UnityEngine.UI;
 
 
 
-public class IAPController : MonoBehaviour, IStoreListener
+public class IAPController : MonoBehaviour/*, IStoreListener*/
 {
     public GameObject RestoreButton;
 
     public GameObject PanelReward;
     
     public static IAPController instance;
-    private static IStoreController m_StoreController;
-    private static IExtensionProvider m_StoreExtensionProvider;
+    /*private static IStoreController m_StoreController;
+    private static IExtensionProvider m_StoreExtensionProvider;*/
 
     //Step 1 create your products
     private string PackCharacters;
@@ -55,6 +55,7 @@ public class IAPController : MonoBehaviour, IStoreListener
 
        
        
+        /*
         if (IsInitialized()) { return; }
         var builder = ConfigurationBuilder.Instance(StandardPurchasingModule.Instance());
 
@@ -62,10 +63,11 @@ public class IAPController : MonoBehaviour, IStoreListener
         builder.AddProduct(PackCharacters, ProductType.NonConsumable);
         builder.AddProduct(ads, ProductType.NonConsumable);
 
-        UnityPurchasing.Initialize(this, builder);
+        UnityPurchasing.Initialize(this, builder);*/
     }
 
    
+    /*
     private bool IsInitialized()
     {
         return m_StoreController != null && m_StoreExtensionProvider != null;
@@ -216,5 +218,5 @@ public class IAPController : MonoBehaviour, IStoreListener
     public void OnInitializeFailed(InitializationFailureReason error, string message)
     {
         ((IStoreListener)instance).OnInitializeFailed(error, message);
-    }
+    }*/
 }
