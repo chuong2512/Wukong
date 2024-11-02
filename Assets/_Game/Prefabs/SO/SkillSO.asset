@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81d545ba187435c99e7ef3af451b9bf, type: 3}
+  m_Name: SkillSO
+  m_EditorClassIdentifier: 
+  listSkill:
+  - rid: 3794718671322742899
+  - rid: 3794718671322742900
+  - rid: 3794718671322742901
+  - rid: 3794718671322742902
+  - rid: 3794718671322742903
+  - rid: 3794718671322742904
+  - rid: 3794718671322742905
+  - rid: 3794718671322742906
+  - rid: 3794718671322742907
+  - rid: 3794718671322742908
+  - rid: 3794718671322742909
+  - rid: 3794718671322742910
+  - rid: 3794718671322742911
+  - rid: 3794718671322742912
+  - rid: 3794718671322742913
+  references:
+    version: 2
+    RefIds:
+    - rid: 3794718671322742899
+      type: {class: SuppliesSkillInfo, ns: Game, asm: Assembly-CSharp}
+      data:
+        icon: {fileID: 21300000, guid: 5bb58af31bd3e7b4f9ea30ac9daf9829, type: 3}
+        <nameSkill>k__BackingField: "Th\xEAm m\xE1u"
+        contentSkill: " T\u0103ng m\xE1u t\u1ED1i \u0111a v\xE0 h\u1ED3i th\xEAm
+          m\u1ED9t ph\u1EA7n m\xE1u cho nh\xE2n v\u1EADt."
+        suppliesType: 0
+    - rid: 3794718671322742900
+      type: {class: SuppliesSkillInfo, ns: Game, asm: Assembly-CSharp}
+      data:
+        icon: {fileID: 21300000, guid: 297bcdd583f674c4bb5da1015ac86c08, type: 3}
+        <nameSkill>k__BackingField: "Nam ch\xE2m"
+        contentSkill: "Thu ho\u1EA1ch kinh nghi\u1EC7m v\xE0 v\xE0ng d\u1EC5 d\xE0ng
+          h\u01A1n \u0111\u1EC3 l\xEAn c\u1EA5p."
+        suppliesType: 1
+    - rid: 3794718671322742901
+      type: {class: SuppliesSkillInfo, ns: Game, asm: Assembly-CSharp}
+      data:
+        icon: {fileID: 21300000, guid: 78050c704be23654a81ca8dc1662afa2, type: 3}
+        <nameSkill>k__BackingField: "T\u1ED1c \u0111\u1ED9 b\u1EAFn"
+        contentSkill: "T\u0103ng t\u1ED1c \u0111\u1ED9 b\u1EAFn c\u1EE7a g\u1EADy
+          nh\u01B0 \xFD."
+        suppliesType: 2
+    - rid: 3794718671322742902
+      type: {class: SuppliesSkillInfo, ns: Game, asm: Assembly-CSharp}
+      data:
+        icon: {fileID: 21300000, guid: 68b809215d1913b49a15990d850648c4, type: 3}
+        <nameSkill>k__BackingField: "T\u0103ng t\u1EA5n c\xF4ng"
+        contentSkill: "T\u0103ng s\u1EE9c m\u1EA1nh t\u1EA5n c\xF4ng."
+        suppliesType: 3
+    - rid: 3794718671322742903
+      type: {class: SuppliesSkillInfo, ns: Game, asm: Assembly-CSharp}
+      data:
+        icon: {fileID: 21300000, guid: 3dd60485914f1c84eb800111254b1f3f, type: 3}
+        <nameSkill>k__BackingField: "H\u1ED3i m\xE1u"
+        contentSkill: "H\u1ED3i \u0111\u1EA7y m\xE1u \u0111\u1EC3 c\xF3 th\u1EC3
+          tr\u1EE5 l\u1EA1i l\xE2u h\u01A1n."
+        suppliesType: 4
+    - rid: 3794718671322742904
+      type: {class: SuppliesSkillInfo, ns: Game, asm: Assembly-CSharp}
+      data:
+        icon: {fileID: 21300000, guid: 8ceff26fdf46c2f4c955a2ecaf98927d, type: 3}
+        <nameSkill>k__BackingField: "Gi\xE0y t\u0103ng t\u1ED1c"
+        contentSkill: "T\u0103ng t\u1ED1c \u0111\u1ED9 di chuy\u1EC3n c\u1EE7a L\xE3o
+          T\xF4n."
+        suppliesType: 5
+    - rid: 3794718671322742905
+      type: {class: WeaponSkillInfo, ns: Game, asm: Assembly-CSharp}
+      data:
+        icon: {fileID: 21300000, guid: 48f9de4be8a673840a3dfc09253c71c1, type: 3}
+        <nameSkill>k__BackingField: "G\u1EADy nh\u01B0 \xFD"
+        contentSkill: "B\u1EAFn ph\xE2n th\xE2n c\u1EE7a g\u1EADy nh\u01B0 \xFD \u0111\u1EBFn
+          y\xEAu qu\xE1i v\xE0 g\xE2y s\xE1t th\u01B0\u01A1ng."
+        weaponType: 0
+    - rid: 3794718671322742906
+      type: {class: WeaponSkillInfo, ns: Game, asm: Assembly-CSharp}
+      data:
+        icon: {fileID: 21300000, guid: 68b809215d1913b49a15990d850648c4, type: 3}
+        <nameSkill>k__BackingField: "Ki\u1EBFm ma ph\xE1p"
+        contentSkill: "B\u1EAFn ra ki\u1EBFm ma ph\xE1p ti\xEAu di\u1EC7t y\xEAu
+          qu\xE1i \u1EDF g\u1EA7n nh\u1EA5t."
+        weaponType: 1
+    - rid: 3794718671322742907
+      type: {class: WeaponSkillInfo, ns: Game, asm: Assembly-CSharp}
+      data:
+        icon: {fileID: 21300000, guid: 9ccd8ee2017edce41983b04d6fb84828, type: 3}
+        <nameSkill>k__BackingField: "R\xECu Hyoga"
+        contentSkill: " Phi ra R\xECu th\u1EA7n Hyoga c\xF3 th\u1EC3 ti\xEAu di\u1EC7u
+          b\u1EA5t c\u1EE9 qu\xE1i v\u1EADt n\xE0o."
+        weaponType: 2
+    - rid: 3794718671322742908
+      type: {class: WeaponSkillInfo, ns: Game, asm: Assembly-CSharp}
+      data:
+        icon: {fileID: 21300000, guid: 98c475d1d70497c45887fea1020ce406, type: 3}
+        <nameSkill>k__BackingField: "V\xF2ng b\u1EA3o v\u1EC7"
+        contentSkill: "T\u1EA1o ra v\xF2ng tr\xF2n xung quanh T\xF4n Ng\u1ED9 Kh\xF4ng
+          c\xF3 th\u1EC3 g\xE2y s\xE1t th\u01B0\u01A1ng."
+        weaponType: 3
+    - rid: 3794718671322742909
+      type: {class: WeaponSkillInfo, ns: Game, asm: Assembly-CSharp}
+      data:
+        icon: {fileID: 21300000, guid: fbb74f27a8d7c8c49a1ac65196359868, type: 3}
+        <nameSkill>k__BackingField: "Nh\u01B0 lai th\u1EA7n ch\u01B0\u1EDFng"
+        contentSkill: "Nh\u01B0 lai th\u1EA7n ch\u01B0\u1EDFng"
+        weaponType: 4
+    - rid: 3794718671322742910
+      type: {class: WeaponSkillInfo, ns: Game, asm: Assembly-CSharp}
+      data:
+        icon: {fileID: 21300000, guid: 78050c704be23654a81ca8dc1662afa2, type: 3}
+        <nameSkill>k__BackingField: " Phi ti\xEAu hu\u1EF7 di\u1EC7t"
+        contentSkill: "T\u1EA1o ra nh\u1EEFng Phi ti\xEAu xung quanh nh\xE2n v\u1EADt
+          \u0111\u1EC3 hu\u1EF7 di\u1EC7t m\u1ECDi th\u1EE9 tr\xEAn \u0111\u01B0\u1EDDng
+          bay."
+        weaponType: 5
+    - rid: 3794718671322742911
+      type: {class: WeaponSkillInfo, ns: Game, asm: Assembly-CSharp}
+      data:
+        icon: {fileID: 21300000, guid: 8bc30220f8c288145bf1d92e17a97278, type: 3}
+        <nameSkill>k__BackingField: "T\xE0 long \u0111ao"
+        contentSkill: " Ph\xE2n th\xE2n ra c\xE1c T\xE0 \u0111ao t\u1EA5n c\xF4ng
+          theo v\xF2ng tr\xF2n quanh L\xE3o T\xF4n."
+        weaponType: 6
+    - rid: 3794718671322742912
+      type: {class: WeaponSkillInfo, ns: Game, asm: Assembly-CSharp}
+      data:
+        icon: {fileID: 21300000, guid: 1302fbff4d28e724daf46f128dcb07ce, type: 3}
+        <nameSkill>k__BackingField: "Qu\u1EA3 c\u1EA7u l\u1EEDa "
+        contentSkill: "B\u1EAFn Tam Mu\u1ED9i Ch\xE2n Ho\u1EA3 c\xF3 th\u1EC3 \u0111\u1ED1t
+          ch\u1EA3y m\u1ECDi k\u1EBB th\xF9."
+        weaponType: 7
+    - rid: 3794718671322742913
+      type: {class: WeaponSkillInfo, ns: Game, asm: Assembly-CSharp}
+      data:
+        icon: {fileID: 21300000, guid: 918b22785878ced4587d3e4acdb0e90c, type: 3}
+        <nameSkill>k__BackingField: " B\u0103ng c\u1EF1c"
+        contentSkill: "T\u1EA1o ra m\u1ED9t v\xF2ng tr\xF2n b\u0103ng xung quanh
+          T\xF4n Ng\u1ED9 Kh\xF4ng v\u1EDBi s\xE1t th\u01B0\u01A1ng c\u1EF1c l\u1EDBn."
+        weaponType: 8

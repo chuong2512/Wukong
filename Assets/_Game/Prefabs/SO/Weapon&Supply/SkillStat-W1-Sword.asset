@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad0e7590d9d440c6a005c74874699954, type: 3}
+  m_Name: SkillStat-W1-Sword
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  ListUpgradeSkill:
+  - listUpgradeSkill:
+    - rid: 3794718671322742833
+  - listUpgradeSkill:
+    - rid: 3794718671322742834
+    - rid: 3794718671322742835
+  - listUpgradeSkill:
+    - rid: 3794718671322742838
+    - rid: 3794718671322742837
+  - listUpgradeSkill:
+    - rid: 3794718671322742839
+  - listUpgradeSkill:
+    - rid: 3794718671322742840
+  - listUpgradeSkill:
+    - rid: 3794718671322742841
+  references:
+    version: 2
+    RefIds:
+    - rid: 3794718671322742833
+      type: {class: AmountUpgrade, ns: Game, asm: Assembly-CSharp}
+      data:
+        amount: 1
+    - rid: 3794718671322742834
+      type: {class: AmountUpgrade, ns: Game, asm: Assembly-CSharp}
+      data:
+        amount: 1
+    - rid: 3794718671322742835
+      type: {class: AddDamageUpgrade, ns: Game, asm: Assembly-CSharp}
+      data:
+        addDamage: 1
+    - rid: 3794718671322742837
+      type: {class: AddDamageUpgrade, ns: Game, asm: Assembly-CSharp}
+      data:
+        addDamage: 1
+    - rid: 3794718671322742838
+      type: {class: AddRateDamageUpgrade, ns: Game, asm: Assembly-CSharp}
+      data:
+        rate: 2
+    - rid: 3794718671322742839
+      type: {class: AmountUpgrade, ns: Game, asm: Assembly-CSharp}
+      data:
+        amount: 1
+    - rid: 3794718671322742840
+      type: {class: AddDamageUpgrade, ns: Game, asm: Assembly-CSharp}
+      data:
+        addDamage: 1
+    - rid: 3794718671322742841
+      type: {class: AmountUpgrade, ns: Game, asm: Assembly-CSharp}
+      data:
+        amount: 1

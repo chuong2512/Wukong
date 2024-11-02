@@ -1,0 +1,236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2a1b89240a841f8b99438580cb0caf5, type: 3}
+  m_Name: LevelSO
+  m_EditorClassIdentifier: 
+  _infoMapItems:
+  - mapID: 0
+    name: "1. Ng\u0169 H\xE0nh S\u01A1n"
+    info: "500 n\u0103m tr\xF4i qua, tr\u1EA3i qua phong ba tu\u1EBF nguy\u1EC7t,
+      l\xE1 b\xF9a th\u1EA7n k\u1EF3 kh\xF4ng b\u1ECB m\u1EE5c n\xE1t, kh\xF4ng m\u1EA5t
+      ch\u1EEF cho \u0111\u1EBFn ng\xE0y Ng\u1ED9 Kh\xF4ng ch\xEDnh th\u1EE9c ph\xF2
+      gi\xE1 \u0110\u01B0\u1EDDng T\u0103ng sang T\xE2y Thi\xEAn th\u1EC9nh kinh."
+    icon: {fileID: 21300000, guid: 5ef0c01737e51194f954caed6cfd4600, type: 3}
+    dataMap:
+      EnemyAttribute:
+        <Health>k__BackingField: 10
+        <MaxHealth>k__BackingField: 10
+        <Defense>k__BackingField: 0
+        <ExpValue>k__BackingField: 1
+        <CoinValue>k__BackingField: 1
+        <Piority>k__BackingField: 1
+        <Speed>k__BackingField: 1
+        <Damage>k__BackingField: 2
+      TimeToWin: 300
+      AddDMGPerTime: 0.2
+      AddHPPerTime: 5
+      MaxEnemies: 100
+      ZoneSpawnTime: 9999
+      TimeSpawnBoss: 2
+      Enemies:
+      - {fileID: 3537171100188795310, guid: 34cbf1f613473ec4c86d2b3b9dded148, type: 3}
+      - {fileID: 3537171100188795310, guid: 7fd860da0f056bd4f90cb38aada23101, type: 3}
+      - {fileID: 3537171100188795310, guid: f6a587f8b3fd50340975cc3b9dbd5409, type: 3}
+      - {fileID: 3537171100188795310, guid: 887c83d071b0afe4b9c3e1b5982434ae, type: 3}
+      - {fileID: 3537171100188795310, guid: bd55a62da43d15d4f96b3223088cb8ff, type: 3}
+      - {fileID: 3537171100188795310, guid: f5988bece832bc44fb6311ed8e429675, type: 3}
+      - {fileID: 3537171100188795310, guid: 34cbf1f613473ec4c86d2b3b9dded148, type: 3}
+      - {fileID: 3537171100188795310, guid: fd4f305029771814db0d47f86b2d04bf, type: 3}
+      Boss: []
+  - mapID: 1
+    name: "2. \u0110\u1ED9ng B\u1EA1ch H\u1ED5"
+    info: "B\u1EA1ch C\u1ED1t Tinh l\xE0 y\xEAu qu\xE1i \u1EDF \u0111\u1ED9ng B\u1EA1ch
+      H\u1ED5 \u0111\xE3 ba l\u1EA7n bi\u1EBFn h\xF3a \u0111\u1EC3 l\u1EEBa b\u1EAFt
+      \u0110\u01B0\u1EDDng T\u0103ng v\xE0 ba l\u1EA7n b\u1ECB T\xF4n Ng\u1ED9 Kh\xF4ng
+      \u0111\xE1nh ch\u1EBFt."
+    icon: {fileID: 21300000, guid: b91389e74e9706a48a6c1b7a0e747c44, type: 3}
+    dataMap:
+      EnemyAttribute:
+        <Health>k__BackingField: 28
+        <MaxHealth>k__BackingField: 28
+        <Defense>k__BackingField: 0
+        <ExpValue>k__BackingField: 1
+        <CoinValue>k__BackingField: 1
+        <Piority>k__BackingField: 1
+        <Speed>k__BackingField: 1
+        <Damage>k__BackingField: 2
+      TimeToWin: 360
+      AddDMGPerTime: 0.3
+      AddHPPerTime: 10
+      MaxEnemies: 100
+      ZoneSpawnTime: 9999
+      TimeSpawnBoss: 5
+      Enemies:
+      - {fileID: 3537171100188795310, guid: f5988bece832bc44fb6311ed8e429675, type: 3}
+      - {fileID: 3537171100188795310, guid: cb36071bb3b8fb6429df7039ffeb314c, type: 3}
+      - {fileID: 3537171100188795310, guid: fd4f305029771814db0d47f86b2d04bf, type: 3}
+      - {fileID: 3537171100188795310, guid: 34cbf1f613473ec4c86d2b3b9dded148, type: 3}
+      - {fileID: 3537171100188795310, guid: 7fd860da0f056bd4f90cb38aada23101, type: 3}
+      - {fileID: 3537171100188795310, guid: f6a587f8b3fd50340975cc3b9dbd5409, type: 3}
+      - {fileID: 3537171100188795310, guid: 887c83d071b0afe4b9c3e1b5982434ae, type: 3}
+      - {fileID: 3537171100188795310, guid: bd55a62da43d15d4f96b3223088cb8ff, type: 3}
+      - {fileID: 3537171100188795310, guid: b6675e95900e8474ca01e96fbd3ab2bd, type: 3}
+      Boss: []
+  - mapID: 2
+    name: 3. Cao gia trang
+    info: "500 n\u0103m tr\xF4i qua, tr\u1EA3i qua phong ba tu\u1EBF nguy\u1EC7t,
+      l\xE1 b\xF9a th\u1EA7n k\u1EF3 kh\xF4ng b\u1ECB m\u1EE5c n\xE1t, kh\xF4ng m\u1EA5t
+      ch\u1EEF cho \u0111\u1EBFn ng\xE0y Ng\u1ED9 Kh\xF4ng ch\xEDnh th\u1EE9c ph\xF2
+      gi\xE1 \u0110\u01B0\u1EDDng T\u0103ng sang T\xE2y Thi\xEAn th\u1EC9nh kinh."
+    icon: {fileID: 21300000, guid: f1a2e1266a751a745bf8a8d77b1ce7c2, type: 3}
+    dataMap:
+      EnemyAttribute:
+        <Health>k__BackingField: 40
+        <MaxHealth>k__BackingField: 40
+        <Defense>k__BackingField: 0
+        <ExpValue>k__BackingField: 1
+        <CoinValue>k__BackingField: 1
+        <Piority>k__BackingField: 1
+        <Speed>k__BackingField: 1
+        <Damage>k__BackingField: 2
+      TimeToWin: 420
+      AddDMGPerTime: 0.3
+      AddHPPerTime: 1
+      MaxEnemies: 15
+      ZoneSpawnTime: 9999
+      TimeSpawnBoss: 5
+      Enemies:
+      - {fileID: 3537171100188795310, guid: b6675e95900e8474ca01e96fbd3ab2bd, type: 3}
+      - {fileID: 3537171100188795310, guid: 11b24a89dcc587e4f975a94f3297d9b8, type: 3}
+      - {fileID: 3537171100188795310, guid: f5988bece832bc44fb6311ed8e429675, type: 3}
+      - {fileID: 3537171100188795310, guid: cb36071bb3b8fb6429df7039ffeb314c, type: 3}
+      - {fileID: 3537171100188795310, guid: fd4f305029771814db0d47f86b2d04bf, type: 3}
+      - {fileID: 3537171100188795310, guid: 34cbf1f613473ec4c86d2b3b9dded148, type: 3}
+      - {fileID: 3537171100188795310, guid: 7fd860da0f056bd4f90cb38aada23101, type: 3}
+      - {fileID: 3537171100188795310, guid: f6a587f8b3fd50340975cc3b9dbd5409, type: 3}
+      - {fileID: 3537171100188795310, guid: 887c83d071b0afe4b9c3e1b5982434ae, type: 3}
+      - {fileID: 3537171100188795310, guid: bd55a62da43d15d4f96b3223088cb8ff, type: 3}
+      Boss: []
+  - mapID: 3
+    name: "4. S\xF4ng l\u01B0u sa"
+    info: "500 n\u0103m tr\xF4i qua, tr\u1EA3i qua phong ba tu\u1EBF nguy\u1EC7t,
+      l\xE1 b\xF9a th\u1EA7n k\u1EF3 kh\xF4ng b\u1ECB m\u1EE5c n\xE1t, kh\xF4ng m\u1EA5t
+      ch\u1EEF cho \u0111\u1EBFn ng\xE0y Ng\u1ED9 Kh\xF4ng ch\xEDnh th\u1EE9c ph\xF2
+      gi\xE1 \u0110\u01B0\u1EDDng T\u0103ng sang T\xE2y Thi\xEAn th\u1EC9nh kinh."
+    icon: {fileID: 21300000, guid: 3f833322b500cea41b61f8f0fab3c99e, type: 3}
+    dataMap:
+      EnemyAttribute:
+        <Health>k__BackingField: 60
+        <MaxHealth>k__BackingField: 60
+        <Defense>k__BackingField: 0
+        <ExpValue>k__BackingField: 1
+        <CoinValue>k__BackingField: 1
+        <Piority>k__BackingField: 1
+        <Speed>k__BackingField: 1
+        <Damage>k__BackingField: 2
+      TimeToWin: 600
+      AddDMGPerTime: 0.4
+      AddHPPerTime: 15
+      MaxEnemies: 100
+      ZoneSpawnTime: 9999
+      TimeSpawnBoss: 5
+      Enemies:
+      - {fileID: 3537171100188795310, guid: f5988bece832bc44fb6311ed8e429675, type: 3}
+      - {fileID: 3537171100188795310, guid: cb36071bb3b8fb6429df7039ffeb314c, type: 3}
+      - {fileID: 3537171100188795310, guid: b6675e95900e8474ca01e96fbd3ab2bd, type: 3}
+      - {fileID: 3537171100188795310, guid: 11b24a89dcc587e4f975a94f3297d9b8, type: 3}
+      - {fileID: 3537171100188795310, guid: f5988bece832bc44fb6311ed8e429675, type: 3}
+      - {fileID: 3537171100188795310, guid: cb36071bb3b8fb6429df7039ffeb314c, type: 3}
+      - {fileID: 3537171100188795310, guid: fd4f305029771814db0d47f86b2d04bf, type: 3}
+      - {fileID: 3537171100188795310, guid: 34cbf1f613473ec4c86d2b3b9dded148, type: 3}
+      - {fileID: 3537171100188795310, guid: 7fd860da0f056bd4f90cb38aada23101, type: 3}
+      - {fileID: 3537171100188795310, guid: f6a587f8b3fd50340975cc3b9dbd5409, type: 3}
+      - {fileID: 3537171100188795310, guid: 887c83d071b0afe4b9c3e1b5982434ae, type: 3}
+      - {fileID: 3537171100188795310, guid: bd55a62da43d15d4f96b3223088cb8ff, type: 3}
+      - {fileID: 3537171100188795310, guid: ee483b13f0559c44a96b7ddddb914ce4, type: 3}
+      Boss: []
+  - mapID: 4
+    name: "5. N\xFAi H\u1EAFc T\xF2ng"
+    info: "500 n\u0103m tr\xF4i qua, tr\u1EA3i qua phong ba tu\u1EBF nguy\u1EC7t,
+      l\xE1 b\xF9a th\u1EA7n k\u1EF3 kh\xF4ng b\u1ECB m\u1EE5c n\xE1t, kh\xF4ng m\u1EA5t
+      ch\u1EEF cho \u0111\u1EBFn ng\xE0y Ng\u1ED9 Kh\xF4ng ch\xEDnh th\u1EE9c ph\xF2
+      gi\xE1 \u0110\u01B0\u1EDDng T\u0103ng sang T\xE2y Thi\xEAn th\u1EC9nh kinh."
+    icon: {fileID: 21300000, guid: bcc8006aefa8e3547a0a8fd6ee998526, type: 3}
+    dataMap:
+      EnemyAttribute:
+        <Health>k__BackingField: 70
+        <MaxHealth>k__BackingField: 70
+        <Defense>k__BackingField: 0
+        <ExpValue>k__BackingField: 1
+        <CoinValue>k__BackingField: 1
+        <Piority>k__BackingField: 1
+        <Speed>k__BackingField: 1
+        <Damage>k__BackingField: 3
+      TimeToWin: 720
+      AddDMGPerTime: 0.2
+      AddHPPerTime: 20
+      MaxEnemies: 200
+      ZoneSpawnTime: 9999
+      TimeSpawnBoss: 5
+      Enemies:
+      - {fileID: 3537171100188795310, guid: f5988bece832bc44fb6311ed8e429675, type: 3}
+      - {fileID: 3537171100188795310, guid: cb36071bb3b8fb6429df7039ffeb314c, type: 3}
+      - {fileID: 3537171100188795310, guid: fd4f305029771814db0d47f86b2d04bf, type: 3}
+      - {fileID: 3537171100188795310, guid: f5988bece832bc44fb6311ed8e429675, type: 3}
+      - {fileID: 3537171100188795310, guid: cb36071bb3b8fb6429df7039ffeb314c, type: 3}
+      - {fileID: 3537171100188795310, guid: bd55a62da43d15d4f96b3223088cb8ff, type: 3}
+      - {fileID: 3537171100188795310, guid: b6675e95900e8474ca01e96fbd3ab2bd, type: 3}
+      - {fileID: 3537171100188795310, guid: 11b24a89dcc587e4f975a94f3297d9b8, type: 3}
+      - {fileID: 3537171100188795310, guid: 34cbf1f613473ec4c86d2b3b9dded148, type: 3}
+      - {fileID: 3537171100188795310, guid: 7fd860da0f056bd4f90cb38aada23101, type: 3}
+      - {fileID: 3537171100188795310, guid: f6a587f8b3fd50340975cc3b9dbd5409, type: 3}
+      - {fileID: 3537171100188795310, guid: 887c83d071b0afe4b9c3e1b5982434ae, type: 3}
+      - {fileID: 3537171100188795310, guid: bd55a62da43d15d4f96b3223088cb8ff, type: 3}
+      - {fileID: 3537171100188795310, guid: ee483b13f0559c44a96b7ddddb914ce4, type: 3}
+      Boss: []
+  - mapID: 5
+    name: "6. N\xFAi Hi\u1EC7u S\u01A1n"
+    info: "500 n\u0103m tr\xF4i qua, tr\u1EA3i qua phong ba tu\u1EBF nguy\u1EC7t,
+      l\xE1 b\xF9a th\u1EA7n k\u1EF3 kh\xF4ng b\u1ECB m\u1EE5c n\xE1t, kh\xF4ng m\u1EA5t
+      ch\u1EEF cho \u0111\u1EBFn ng\xE0y Ng\u1ED9 Kh\xF4ng ch\xEDnh th\u1EE9c ph\xF2
+      gi\xE1 \u0110\u01B0\u1EDDng T\u0103ng sang T\xE2y Thi\xEAn th\u1EC9nh kinh."
+    icon: {fileID: 21300000, guid: 5ef0c01737e51194f954caed6cfd4600, type: 3}
+    dataMap:
+      EnemyAttribute:
+        <Health>k__BackingField: 80
+        <MaxHealth>k__BackingField: 80
+        <Defense>k__BackingField: 0
+        <ExpValue>k__BackingField: 1
+        <CoinValue>k__BackingField: 1
+        <Piority>k__BackingField: 1
+        <Speed>k__BackingField: 1
+        <Damage>k__BackingField: 3
+      TimeToWin: 900
+      AddDMGPerTime: 0.5
+      AddHPPerTime: 15
+      MaxEnemies: 200
+      ZoneSpawnTime: 9999
+      TimeSpawnBoss: 5
+      Enemies:
+      - {fileID: 3537171100188795310, guid: bd55a62da43d15d4f96b3223088cb8ff, type: 3}
+      - {fileID: 3537171100188795310, guid: b6675e95900e8474ca01e96fbd3ab2bd, type: 3}
+      - {fileID: 3537171100188795310, guid: 11b24a89dcc587e4f975a94f3297d9b8, type: 3}
+      - {fileID: 3537171100188795310, guid: f6a587f8b3fd50340975cc3b9dbd5409, type: 3}
+      - {fileID: 3537171100188795310, guid: 887c83d071b0afe4b9c3e1b5982434ae, type: 3}
+      - {fileID: 3537171100188795310, guid: b6675e95900e8474ca01e96fbd3ab2bd, type: 3}
+      - {fileID: 3537171100188795310, guid: 11b24a89dcc587e4f975a94f3297d9b8, type: 3}
+      - {fileID: 3537171100188795310, guid: f5988bece832bc44fb6311ed8e429675, type: 3}
+      - {fileID: 3537171100188795310, guid: cb36071bb3b8fb6429df7039ffeb314c, type: 3}
+      - {fileID: 3537171100188795310, guid: fd4f305029771814db0d47f86b2d04bf, type: 3}
+      - {fileID: 3537171100188795310, guid: 34cbf1f613473ec4c86d2b3b9dded148, type: 3}
+      - {fileID: 3537171100188795310, guid: 7fd860da0f056bd4f90cb38aada23101, type: 3}
+      - {fileID: 3537171100188795310, guid: f6a587f8b3fd50340975cc3b9dbd5409, type: 3}
+      - {fileID: 3537171100188795310, guid: 887c83d071b0afe4b9c3e1b5982434ae, type: 3}
+      - {fileID: 3537171100188795310, guid: bd55a62da43d15d4f96b3223088cb8ff, type: 3}
+      - {fileID: 3537171100188795310, guid: ee483b13f0559c44a96b7ddddb914ce4, type: 3}
+      Boss: []
+  _listExpLevel: 

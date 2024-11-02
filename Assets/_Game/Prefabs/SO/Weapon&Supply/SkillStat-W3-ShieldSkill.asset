@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad0e7590d9d440c6a005c74874699954, type: 3}
+  m_Name: SkillStat-W3-ShieldSkill
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  ListUpgradeSkill:
+  - listUpgradeSkill:
+    - rid: 3794718671322742859
+  - listUpgradeSkill:
+    - rid: 3794718671322742864
+  - listUpgradeSkill:
+    - rid: 3794718671322742863
+  - listUpgradeSkill:
+    - rid: 3794718671322742862
+  - listUpgradeSkill:
+    - rid: 3794718671322742861
+  - listUpgradeSkill:
+    - rid: 3794718671322742860
+  references:
+    version: 2
+    RefIds:
+    - rid: 3794718671322742859
+      type: {class: RangeUpgrade, ns: Game, asm: Assembly-CSharp}
+      data:
+        range: 0.6
+    - rid: 3794718671322742860
+      type: {class: RangeUpgrade, ns: Game, asm: Assembly-CSharp}
+      data:
+        range: 0.3
+    - rid: 3794718671322742861
+      type: {class: RangeUpgrade, ns: Game, asm: Assembly-CSharp}
+      data:
+        range: 0.6
+    - rid: 3794718671322742862
+      type: {class: RangeUpgrade, ns: Game, asm: Assembly-CSharp}
+      data:
+        range: 0.3
+    - rid: 3794718671322742863
+      type: {class: RangeUpgrade, ns: Game, asm: Assembly-CSharp}
+      data:
+        range: 0.6
+    - rid: 3794718671322742864
+      type: {class: RangeUpgrade, ns: Game, asm: Assembly-CSharp}
+      data:
+        range: 0.3
