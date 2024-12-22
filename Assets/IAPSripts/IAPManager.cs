@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
 using SinhTon;
-using UnityEngine;/*
+using UnityEngine;
 using UnityEngine.Purchasing;
-using UnityEngine.Purchasing.Security;*/
+using UnityEngine.Purchasing.Security;
 
 public class IAPKey
 {
@@ -15,9 +15,9 @@ public class IAPKey
     public const string PACK6 = "buy_linh_dan_tnk_6";
 }
 
-public class IAPManager : PersistentSingleton<IAPManager>/*, IStoreListener*/
+public class IAPManager : PersistentSingleton<IAPManager>, IStoreListener
 {
-    /*private static IStoreController storeController;
+    private static IStoreController storeController;
     private static IExtensionProvider extensionProvider;
     public static Action OnPurchaseSuccess;
 
@@ -34,9 +34,8 @@ public class IAPManager : PersistentSingleton<IAPManager>/*, IStoreListener*/
         {
             InitProduct();
         }
-    }*/
+    }
 
-    /*
     private void InitProduct()
     {
         if (IsInitialized())
@@ -241,5 +240,5 @@ public class IAPManager : PersistentSingleton<IAPManager>/*, IStoreListener*/
         if (storeController != null)
             return storeController.products.WithID(key).metadata.localizedPriceString;
         return defaultPriceText;
-    }*/
+    }
 }

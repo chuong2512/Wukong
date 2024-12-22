@@ -26,8 +26,8 @@ namespace Game
 
         private void OnClickButton()
         {
-            /*IAPManager.OnPurchaseSuccess = AddGem;
-            IAPManager.Instance.BuyProductID(package_id);*/
+            IAPManager.OnPurchaseSuccess = AddGem;
+            IAPManager.Instance.BuyProductID(package_id);
         }
 
         private void AddGem()
