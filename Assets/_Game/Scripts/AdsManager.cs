@@ -8,14 +8,14 @@ public class AdsManager : MonoBehaviour
 
     void Awake()
     {
-      //  Advertisements.Instance.Initialize();
+        //  Advertisements.Instance.Initialize();
     }
 
     public void Showintertitial()
     {
         if (PlayerPrefs.GetInt("ads") != 1)
         {
-           // Advertisements.Instance.ShowInterstitial();
+            // Advertisements.Instance.ShowInterstitial();
         }
     }
 
@@ -29,7 +29,7 @@ public class AdsManager : MonoBehaviour
         /*managerMecanique.InitText();*/
 
 #else
-        Advertisements.Instance.ShowRewardedVideo(CompleteMethodGems);
+        //Advertisements.Instance.ShowRewardedVideo(CompleteMethodGems);
 
 #endif
     }
@@ -62,7 +62,7 @@ public class AdsManager : MonoBehaviour
         /*managerMecanique.InitText();*/
 
 #else
-        Advertisements.Instance.ShowRewardedVideo(CompleteMethodCoins);
+       // Advertisements.Instance.ShowRewardedVideo(CompleteMethodCoins);
 
 #endif
     }
@@ -95,7 +95,7 @@ public class AdsManager : MonoBehaviour
         /*managerMecanique.InitText();*/
 
 #else
-        Advertisements.Instance.ShowRewardedVideo(CompleteMethodPower);
+        //Advertisements.Instance.ShowRewardedVideo(CompleteMethodPower);
 
 #endif
     }
@@ -119,7 +119,7 @@ public class AdsManager : MonoBehaviour
 
     public void ShowrewardVideo()
     {
-       // Advertisements.Instance.ShowRewardedVideo(CompleteMethod);
+        // Advertisements.Instance.ShowRewardedVideo(CompleteMethod);
 
         void CompleteMethod(bool completed, string advertiser)
         {
