@@ -33,7 +33,7 @@ public class UbhEnemy : UbhMonoBehaviour
         {
             if (transform.position.y < m_stopPoint)
             {
-                rigidbody2D.velocity = UbhUtil.VECTOR2_ZERO;
+                rigidbody2D.linearVelocity = UbhUtil.VECTOR2_ZERO;
                 m_useStop = false;
             }
         }
@@ -41,7 +41,7 @@ public class UbhEnemy : UbhMonoBehaviour
 
     public void Move(Vector2 direction)
     {
-        rigidbody2D.velocity = direction * m_spaceship.m_speed;
+        rigidbody2D.linearVelocity = direction * m_spaceship.m_speed;
     }
 
     private void OnTriggerEnter2D(Collider2D c)

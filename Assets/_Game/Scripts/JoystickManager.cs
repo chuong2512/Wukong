@@ -16,7 +16,7 @@ public class JoystickManager : MonoBehaviour
 
     void Update()
     {
-        anim.SetFloat(Speed, _rigidbody2D.velocity.magnitude > 0 ? 1 : 0);
+        anim.SetFloat(Speed, _rigidbody2D.linearVelocity.magnitude > 0 ? 1 : 0);
 
         AnimatorController();
         if (joystickMovement.joystickVec.y != 0)
@@ -27,12 +27,12 @@ public class JoystickManager : MonoBehaviour
             Debug.Log("player speed" + ps);
             Debug.Log("player save" + PlayerPrefs.GetFloat("Spead"));
 
-            _rigidbody2D.velocity = new Vector2(joystickMovement.joystickVec.x * speed,
+            _rigidbody2D.linearVelocity = new Vector2(joystickMovement.joystickVec.x * speed,
                 joystickMovement.joystickVec.y * speed);
         }
         else
         {
-            _rigidbody2D.velocity = Vector2.zero;
+            _rigidbody2D.linearVelocity = Vector2.zero;
         }
     }
 
