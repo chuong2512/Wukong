@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Purchasing; 
+using UnityEngine.Purchasing;
 using SinhTon;
 
 public class IAPKey
@@ -13,6 +13,9 @@ public class IAPKey
     public const string PACK5 = "inapp_linh_dan_wukong_5";
     public const string PACK6 = "inapp_linh_dan_wukong_6";
     public const string PACK7 = "inapp_linh_dan_wukong_7";
+    public const string PACK8 = "inapp_linh_dan_wukong_8";
+    public const string PACK9 = "inapp_linh_dan_wukong_9";
+    public const string PACK10 = "inapp_linh_dan_wukong_10";
 }
 
 public class IAPManager : PersistentSingleton<IAPManager>
@@ -46,6 +49,9 @@ public class IAPManager : PersistentSingleton<IAPManager>
             initialProductsToFetch.Add(new(IAPKey.PACK5, ProductType.Consumable));
             initialProductsToFetch.Add(new(IAPKey.PACK6, ProductType.Consumable));
             initialProductsToFetch.Add(new(IAPKey.PACK7, ProductType.Consumable));
+            initialProductsToFetch.Add(new(IAPKey.PACK8, ProductType.Consumable));
+            initialProductsToFetch.Add(new(IAPKey.PACK9, ProductType.Consumable));
+            initialProductsToFetch.Add(new(IAPKey.PACK10, ProductType.Consumable));
 
 
             m_StoreController.FetchProducts(initialProductsToFetch);
